@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<button (click)="refreshIP()" ion-button full>Refresh IP</button>
+
+<ion-card>
+  <ion-card-header>
+    Carrier IP
+  </ion-card-header>
+  <ion-card-content>
+    {{cellIP}}
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    WiFi IP
+  </ion-card-header>
+  <ion-card-content>
+    {{wifiIP}}
+  </ion-card-content>
+</ion-card>
+
+</ion-content>
